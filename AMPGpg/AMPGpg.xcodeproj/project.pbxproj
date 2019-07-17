@@ -246,7 +246,7 @@
 				ORGANIZATIONNAME = bloop;
 				TargetAttributes = {
 					D84DFAFB18FECEDA007B4E49 = {
-						DevelopmentTeam = 2E337YPCZY;
+						DevelopmentTeam = 23WF2TS66A;
 					};
 				};
 			};
@@ -255,6 +255,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D84DFAF318FECEDA007B4E49;
@@ -430,11 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 2E337YPCZY;
+				DEVELOPMENT_TEAM = 23WF2TS66A;
 				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"\"$(SRCROOT)/../",
@@ -463,6 +465,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"\"$(SRCROOT)/../",
